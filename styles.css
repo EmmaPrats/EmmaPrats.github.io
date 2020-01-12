@@ -1,0 +1,189 @@
+body
+{
+    background-color: #b3a6fc;
+    
+    font-family: "Helvetica", "Arial";
+    color: black;
+    
+    padding: 20px;
+    margin: 0;
+}
+
+a
+{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header
+{
+    text-align: center;
+    
+    max-width: 900px;
+    margin: 10px auto 10px auto;
+}
+
+#title
+{
+    font-family: "Menlo", "Andale Mono", "Courier";
+    font-size: 50px;
+    
+    margin: 0;
+}
+
+#subtitle
+{
+    font-family: "Helvetica", "Arial";
+    font-size: 24px;
+    
+    margin: 0 0 5px 0;
+}
+
+#subsubtitle
+{
+    font-family: "Helvetica", "Arial";
+    font-size: 20px;
+    
+    margin: 0;
+}
+
+.header-link
+{
+    background-color: #7B64F6;
+    
+    color: white;
+    
+    padding: 0 5px;
+}
+
+.grid
+{
+    display: block;
+    max-width: 900px;
+    margin: auto;
+}
+
+.grid-item
+{
+    background-color: #d1c9fe;
+    
+    text-align: center;
+    
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
+
+.item-image
+{
+    width: 100%;
+}
+
+.item-title
+{
+    font-size: 24px;
+    
+    margin: 10px 0 10px 0;
+}
+
+.technologies
+{
+    font-family: "Menlo", "Andale Mono", "Courier";
+    font-size: 18px;
+    text-align: left;
+    line-height: 200%;
+    
+    min-height: 72px;
+    margin: 0;
+}
+
+.technology
+{
+    background-color: #b3a6fc;
+    
+    color: black;
+    
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.links
+{
+    font-size: 18px;
+    text-align: left;
+    line-height: 200%;
+    
+    float: right;
+    margin: 0 0 0 10px;
+}
+
+.link
+{
+    background-color: #7B64F6;
+    
+    color: white;
+    
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.item-icon
+{
+    height: 15px;
+}
+
+#portfolio
+{
+    display: block;
+}
+
+#portfolio-table
+{
+    display: none;
+}
+
+.footer-link
+{
+    text-align: center;
+}
+
+.footer-link a
+{
+    color: #7B64F6;
+}
+
+@media only screen and (min-width: 650px)
+{
+    #portfolio
+    {
+        display: none;
+    }
+    
+    #portfolio-table
+    {
+        display: block;
+    }
+    
+    .grid
+    {
+        vertical-align: top;
+    }
+    
+    table
+    {
+        width: 100%;
+        border-spacing: 10px;
+    }
+    
+    .grid-item
+    {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 900px)
+{
+    header
+    {
+        margin: 100px auto 50px auto;
+    }
+}
