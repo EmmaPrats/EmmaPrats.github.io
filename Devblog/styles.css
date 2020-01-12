@@ -1,0 +1,211 @@
+body
+{
+    background-color: #fbf0ff;/*#e09efb;*/
+    
+    padding: 20px 0;
+}
+
+body>*
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#subtitle
+{
+    font-size: 35px;
+    
+    margin: 10px 0 10px 0;
+}
+
+#subsubtitle
+{
+    font-size: 25px;
+    
+    margin: 0;
+}
+
+.extract
+{
+    background-color: #eec4fe;/*lightgray;*/
+    
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.extract>*
+{
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+p, li
+{
+    font-size: 20px;
+    text-align: left;
+}
+
+.summary
+{
+    font-size: 25px;
+}
+
+.section
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section:nth-child(odd)
+{
+    background-color: #fbf0ff;/*lightblue;*/
+}
+
+.section:nth-child(even)
+{
+    background-color: #f7e4ff;/*lightgreen;*/
+}
+
+.section>*
+{
+    max-width: 900px;
+    margin: auto;
+}
+
+.section-title
+{
+    text-align: center;
+}
+
+.text-with-floating-images
+{
+    text-align: center;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+img.float-left
+{
+    max-width: 300px;
+    text-align: center;
+}
+
+img.float-right
+{
+    max-width: 300px;
+    margin: auto;
+}
+
+.image-right-text-left img:last-child
+{
+    display: none;
+}
+
+.hide-on-mobile
+{
+    display: none;
+}
+
+footer
+{
+    padding-top: 20px;
+}
+
+footer>*
+{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p
+{
+    text-align: center;
+}
+
+.small
+{
+    font-size: 17px;
+}
+
+a
+{
+    color: #C856F5;
+}
+
+@media only screen and (min-width: 650px)
+{
+    img.float-left
+    {
+        width: 300px;
+        float: left;
+    }
+    
+    img.float-right
+    {
+        width: 300px;
+        float: right;
+    }
+    
+    .image-left-text-right img
+    {
+        display: inline-block;
+        width: 40%;
+        margin-right: 1%;
+    }
+    
+    .image-left-text-right div
+    {
+        vertical-align: top;
+        
+        display: inline-block;
+        width: 58%;
+    }
+    
+    .image-right-text-left div
+    {
+        vertical-align: top;
+        
+        display: inline-block;
+        width: 58%;
+    }
+    
+    .image-right-text-left img
+    {
+        display: inline-block;
+        width: 40%;
+        margin-left: 1%;
+    }
+
+    .image-right-text-left img:first-child
+    {
+        display: none;
+    }
+    
+    .image-right-text-left img:last-child
+    {
+        display: inline-block;
+    }
+    
+    .hide-on-mobile
+    {
+        display: block;
+    }
+    
+    .hide-on-desktop
+    {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 900px)
+{
+    header
+    {
+        margin: 50px auto 50px auto;
+    }
+}
